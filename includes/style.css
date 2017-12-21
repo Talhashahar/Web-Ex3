@@ -1,0 +1,27 @@
+
+*{margin: 0; padding: 0;}
+
+nav, main, header, footer, section{
+    display: block;
+}
+
+body{
+    background-color: #007bff;
+}
+main{
+    background-color: white;
+    padding: 30px;
+    margin: 40px auto;
+    width: 1000px;
+}
+label, p{
+    padding-left: 10px;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    background-color: #007bff;
+    color: white;
+    margin: 20px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tal Hashahar</title>
+    <link rel="stylesheet" href="includes/style.css">
+</head>
+<body>
+    <main>
+        <form action="http://html5-book.co.il/teach/forms/get_form2.php " method="GET">
+            <p>
+                Full Name<br>
+                <input type="text" name="fullName" required placeholder="Tal Hashahar">
+            </p><br>
+            <p>
+                Password<br>
+                <input type="password" name="pass" maxlength="4" pattern="[0-9][0-9][0-9][0-9]" placeholder="****">
+            </p><br>
+            <p>
+                Email<br>
+                <input type="email" name="mail" placeholder="WebProject@Shenkar.ac.il">
+            </p><br>
+            <p>
+                Website<br>
+                <input type="url" name="website" placeholder="Http://www.google.com">
+            </p><br>
+            <p>
+                Address<br>
+                <input type="text" name="address" placeholder="Tel Aviv">
+            </p><br>
+            <p>
+                <label>choose from option: <br></label>
+                <label><input type="checkbox" value="1" name="interests[]"> op1 </label><br>
+                <label><input type="checkbox" value="2" name="interests[]"> op2 </label><br>
+                <label><input type="checkbox" value="3" name="interests[]"> op3 </label><br>
+                <label><input type="checkbox" value="4" name="interests[]"> op4 </label><br>
+            </p><br>
+            <p>
+                <label> Phone number<br> <input type="tel" name="phone" placeholder="0527878782">  </label>
+            </p><br>
+            <p>
+                <label> Cofee<br> <input type="number" name="coffee">  </label><br>
+            </p><br>
+            <p><label>Range<br></label>
+                <label><input type="range" name="temper">  </label><br>
+            </p><br>
+            <p> <label> Choose your gender</label> <br>
+                <label><input type="radio" value="male" name="gender"> male </label><br>
+                <label><input type="radio" value="female" name="gender"> female </label><br>
+            </p><br>
+            <p>
+                <label>Choose from list</label>
+                <label><select name="age">
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                </select> </label><br>
+            </p><br>
+            <button type="submit">SUBMIT</button>
+
+        </form>
+    </main>
+</body>
+</html>
